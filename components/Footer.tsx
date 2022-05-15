@@ -2,9 +2,8 @@ const Footer = () => {
   return (
     <footer className="text-xs text-center p-6 primary-text">
       <div>
-        Sakana &copy; {new Date().getFullYear()}
+        Sakana {new Date().getFullYear()}, powered by Notion, Next.js & Vercel.
       </div>
-      <div>Powered by Notion, Next.js & Vercel.</div>
     </footer>
   )
 }
